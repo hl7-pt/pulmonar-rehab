@@ -1,0 +1,11 @@
+ExampleIG
+=========================================
+
+Generic: line 0, col 0, Warning - The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 0, col 0, Error - Resource id/url mismatch: my-ig/http://example.com/fhir/example (INVARIANT)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 1, col 12763, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 0, col 0, Error - URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example (BUSINESSRULE)
+
+err = 4, warn = 1, info = 0
+IG Publisher Version: 1.6.28

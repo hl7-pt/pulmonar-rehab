@@ -1,0 +1,57 @@
+{
+  "date" : "Tue, 08 Oct, 2024 15:28:54 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-my-ig.json",
+      "size" : 2174,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 38
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 42,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 96
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 1489
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 90
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 54
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 51,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 3
+        }
+      ]
+    }
+  ]
+}
