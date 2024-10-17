@@ -1,0 +1,22 @@
+{
+    "resourceType": "Observation",
+    "id": "CAT_score_example",
+    "valueInteger": 20,
+    "code": {
+      "text": "CAT"
+    },
+    "status": "final",
+    "subject": {
+      "reference": "cfsb1724237080279"
+    },
+    "referenceRange": [
+      {
+        "low": {
+          "value": 0
+        },
+        "high": {
+          "value": 40
+        }
+      }
+    ]
+  }

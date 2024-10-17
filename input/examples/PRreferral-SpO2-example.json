@@ -1,0 +1,21 @@
+{
+    "resourceType": "Observation",
+    "id": "SpO2_example",
+    "valueQuantity": {
+      "value": 91,
+      "unit": "%"
+    },
+    "subject": {
+      "reference": "cfsb1724237080279"
+    },
+    "code": {
+      "coding": [
+        {
+          "code": "59408-5",
+          "system": "http://loinc.org"
+        }
+      ],
+      "text": "Oxygen saturation in Arterial blood by Pulse oximetry"
+    },
+    "status": "final"
+  }

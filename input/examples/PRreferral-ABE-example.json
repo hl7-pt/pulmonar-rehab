@@ -1,0 +1,26 @@
+
+
+{
+  "resourceType": "Observation",
+  "id": "ABC_example",
+  "valueString": "B",
+  "status": "final",
+  "code": {
+    "text": "GOLD ABE"
+  },
+  "subject": {
+    "reference": "cfsb1724237080279"
+  },
+  "derivedFrom": [
+    {
+      "reference": "cfsb1722869801967"
+    },
+    {
+      "reference": "cfsb1722867963666"
+    },
+    {
+      "reference": "cfsb1722869550199"
+    }
+  ]
+}
+

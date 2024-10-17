@@ -1,0 +1,28 @@
+{
+    "resourceType": "Observation",
+    "id": "mMRC_score_example",
+    "valueInteger": 2,
+    "subject": {
+      "reference": "cfsb1724237080279"
+    },
+    "code": {
+      "coding": [
+        {
+          "code": "870179002",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "modified Medical Research Council Dyspnea Scale (assessment scale)"
+    },
+    "status": "final",
+    "referenceRange": [
+      {
+        "low": {
+          "value": 0
+        },
+        "high": {
+          "value": 4
+        }
+      }
+    ]
+  }

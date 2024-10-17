@@ -167,8 +167,8 @@ pages:
     title: Home Page   
   background.md:
     title: Background
-  spec.md:
-    title: Specification
+ # spec.md:
+  #  title: Specification
   downloads.html:
     title: Downloads
   changes.html:
@@ -177,7 +177,7 @@ pages:
 menu:
   IG Home: index.html
   Background: background.html
-  Specification: spec.html
+  # Specification: spec.html
   Artifact Index: artifacts.html			
   Downloads: downloads.html
 # The parameters property represents IG.definition.parameter. Rather

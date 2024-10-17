@@ -1,0 +1,18 @@
+{
+    "resourceType": "Observation",
+    "id": "exacerbation_history_example",
+    "valueInteger": 0,
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "code": "723245007",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)"
+    },
+    "subject": {
+      "reference": "cfsb1724237080279"
+    }
+  }
