@@ -1,0 +1,79 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "PRreferral-ABE",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-ABE",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralABE"
+  },
+  {
+    "id" : "PRreferral-CAT",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-CAT",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralCAT"
+  },
+  {
+    "id" : "PRreferral-FEV1",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-FEV1",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralFEV1"
+  },
+  {
+    "id" : "PRreferral-SpO2",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-SpO2",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferral"
+  },
+  {
+    "id" : "PRreferral-comorbidities",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-comorbidities",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralComorbidities"
+  },
+  {
+    "id" : "PRreferral-exacerbation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-exacerbation",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralExacerbations"
+  },
+  {
+    "id" : "PRreferral-mMRC",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-mMRC",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralMMRC"
+  },
+  {
+    "id" : "PRreferral-valueset-ICD10",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-ICD10",
+    "version" : "1.0.0",
+    "name" : "PRreferralValueSetICD10"
+  },
+  {
+    "id" : "PRreferral-valueset-LOINC",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-LOINC",
+    "version" : "1.0.0",
+    "name" : "PRreferralValueSetLOINC"
+  },
+  {
+    "id" : "PRreferral-valueset-SNOMED",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-SNOMED",
+    "version" : "1.0.0",
+    "name" : "PRreferralValueSetSNOMED"
+  }
+]

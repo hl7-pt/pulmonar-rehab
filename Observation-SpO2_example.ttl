@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Observation/SpO2_example> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SpO2_example"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SpO2_example</b></p><a name=\"SpO2_example\"> </a><a name=\"hcSpO2_example\"> </a><a name=\"SpO2_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 59408-5}\">Oxygen saturation in Arterial blood by Pulse oximetry</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: 91 %</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:59408-5 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "59408-5" ]
+     ] ) ;
+     fhir:text [ fhir:v "Oxygen saturation in Arterial blood by Pulse oximetry" ]
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "cfsb1724237080279" ]
+  ] ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "91"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "%" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

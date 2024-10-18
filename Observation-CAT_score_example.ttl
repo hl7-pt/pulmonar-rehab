@@ -1,0 +1,33 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Observation/CAT_score_example> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CAT_score_example"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation CAT_score_example</b></p><a name=\"CAT_score_example\"> </a><a name=\"hcCAT_score_example\"> </a><a name=\"CAT_score_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">CAT</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: 20</p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>0</td><td>40</td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:text [ fhir:v "CAT" ]
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "cfsb1724237080279" ]
+  ] ; # 
+  fhir:value [ fhir:v "20"^^xsd:integer] ; # 
+  fhir:referenceRange ( [
+     fhir:low [
+       fhir:value [ fhir:v "0"^^xsd:decimal ]
+     ] ;
+     fhir:high [
+       fhir:value [ fhir:v "40"^^xsd:decimal ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

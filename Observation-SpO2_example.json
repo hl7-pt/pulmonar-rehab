@@ -1,0 +1,23 @@
+{
+  "resourceType" : "Observation",
+  "id" : "SpO2_example",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SpO2_example</b></p><a name=\"SpO2_example\"> </a><a name=\"hcSpO2_example\"> </a><a name=\"SpO2_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 59408-5}\">Oxygen saturation in Arterial blood by Pulse oximetry</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: 91 %</p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "59408-5"
+    }],
+    "text" : "Oxygen saturation in Arterial blood by Pulse oximetry"
+  },
+  "subject" : {
+    "reference" : "cfsb1724237080279"
+  },
+  "valueQuantity" : {
+    "value" : 91,
+    "unit" : "%"
+  }
+}

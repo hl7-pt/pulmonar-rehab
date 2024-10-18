@@ -1,0 +1,145 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "0423dc09-1730-4d31-a69c-7d6d4aefda06",
+  "meta" : {
+    "lastUpdated" : "2024-10-18T08:16:44.002+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-LOINC",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.78</p><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-LOINC",
+      "version" : "1.0.0",
+      "name" : "PRreferralValueSetLOINC",
+      "title" : "Pulmonary Rehabilitation referral LOINC Subset",
+      "status" : "active",
+      "date" : "2024-10-18T08:16:44+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:b0b70f44-0d32-4be7-b482-8f26dbef3eb8",
+        "timestamp" : "2024-10-18T08:17:05+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.78"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.78"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-SNOMED",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-Aug 2024</p><p>This value set expansion contains 4 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-870179002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/870179002\">870179002</a></td><td>http://snomed.info/sct</td><td>modified Medical Research Council Dyspnea Scale (assessment scale)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-723245007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/723245007\">723245007</a></td><td>http://snomed.info/sct</td><td>Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-313223002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/313223002\">313223002</a></td><td>http://snomed.info/sct</td><td>Percent predicted FEV1</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-398192003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/398192003\">398192003</a></td><td>http://snomed.info/sct</td><td>Co-morbid conditions (finding)</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-SNOMED",
+      "version" : "1.0.0",
+      "name" : "PRreferralValueSetSNOMED",
+      "title" : "Pulmonary Rehabilitation referral SNOMED CT Subset",
+      "status" : "active",
+      "date" : "2024-10-18T08:16:44+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+          "valueBoolean" : true
+        }],
+        "identifier" : "urn:uuid:df893751-4bee-4946-93bd-427ed5e7c7e8",
+        "timestamp" : "2024-10-18T08:17:06+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "870179002",
+          "display" : "modified Medical Research Council Dyspnea Scale (assessment scale)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "723245007",
+          "display" : "Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "313223002",
+          "display" : "Percent predicted FEV1"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "398192003",
+          "display" : "Co-morbid conditions (finding)"
+        }]
+      }
+    }
+  }]
+}

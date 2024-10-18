@@ -1,0 +1,125 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 39, warn = 29, info = 0
+IG Publisher Version: 1.6.31
+Generated Fri Oct 18 08:17:18 UTC 2024. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 12 / 8 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-ABE : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-CAT : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-FEV1 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-SpO2 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-comorbidities : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-exacerbation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-mMRC : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-PRreferral-valueset-ICD10 : 3 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-PRreferral-valueset-LOINC : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-PRreferral-valueset-SNOMED : 0 / 1 / 1
+ /github/workspace/input/examples/PRreferral-ABE-example : 9 / 2 / 1
+ /github/workspace/input/examples/PRreferral-CAT-example : 3 / 2 / 1
+ /github/workspace/input/examples/PRreferral-FEV1-example : 3 / 1 / 1
+ /github/workspace/input/examples/PRreferral-SpO2-example : 9 / 2 / 2
+ /github/workspace/input/examples/PRreferral-comorbidities : 3 / 0 / 1
+ /github/workspace/input/examples/PRreferral-exacerbation-example : 3 / 2 / 1
+ /github/workspace/input/examples/PRreferral-mMRC-example : 3 / 2 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ABC_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/CAT_score_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/FEV1_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/SpO2_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/comorbidities_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/exacerbation_history_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/mMRC_score_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Condition-comorbidities_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 705: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/Observation-ABC_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 278: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/Observation-ABC_example.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 189, column 388: The link 'cfsb1722869801967' for "cfsb1722869801967" cannot be resolved
+ERROR: /github/workspace/output/Observation-ABC_example.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 189, column 446: The link 'cfsb1722867963666' for "cfsb1722867963666" cannot be resolved
+ERROR: /github/workspace/output/Observation-ABC_example.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 189, column 504: The link 'cfsb1722869550199' for "cfsb1722869550199" cannot be resolved
+ERROR: /github/workspace/output/Observation-CAT_score_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 297: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/Observation-FEV1_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 381: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/Observation-SpO2_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 353: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/Observation-exacerbation_history_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 466: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/Observation-mMRC_score_example.html#/html/body/div/div/div/div/div/div/p/a at Line 189, column 398: The link 'cfsb1724237080279' for "cfsb1724237080279" cannot be resolved
+ERROR: /github/workspace/output/background.html#/html/body/div/div/div/div/div/p/img at Line 250, column 5: The image source '/Users/nadiahipolito/Downloads/fhir-master/input/images/Image1.jpg' cannot be resolved
+ERROR: /github/workspace/output/background.html#/html/body/div/div/div/div/div/p/img at Line 263, column 5: The image source '/Users/nadiahipolito/Downloads/fhir-master/input/images/Image2.png' cannot be resolved
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
+== fsh-generated/resources/StructureDefinition-PRreferral-ABE.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-ABE'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PRreferral-CAT.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-CAT'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PRreferral-FEV1.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-FEV1'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PRreferral-SpO2.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-SpO2'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PRreferral-comorbidities.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-comorbidities'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PRreferral-exacerbation.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-exacerbation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PRreferral-mMRC.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-mMRC'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-PRreferral-valueset-ICD10.json ==
+ERROR: ValueSet/PRreferral-valueset-ICD10: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://hl7.org/fhir/sid/icd-10', and '4A09XLZ' is not (Unknown code '4A09XLZ' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/PRreferral-valueset-ICD10: ValueSet.compose.include[1].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://hl7.org/fhir/sid/icd-10', and '4A03XR1' is not (Unknown code '4A03XR1' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+WARNING: ValueSet/PRreferral-valueset-ICD10: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet.where(id = 'PRreferral-valueset-ICD10'): Error from http://tx.fhir.org/r4: Unable to locate code 4A09XLZ
+== fsh-generated/resources/ValueSet-PRreferral-valueset-LOINC.json ==
+WARNING: ValueSet/PRreferral-valueset-LOINC: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-PRreferral-valueset-SNOMED.json ==
+WARNING: ValueSet/PRreferral-valueset-SNOMED: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/examples/PRreferral-ABE-example.json ==
+ERROR: Observation/ABC_example: Observation.id: Invalid Resource id: Invalid Characters ('ABC_example')
+ERROR: Observation/ABC_example: Observation.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+ERROR: Observation/ABC_example: Observation.derivedFrom[0]: Unable to resolve resource with reference 'cfsb1722869801967'
+ERROR: Observation/ABC_example: Observation.derivedFrom[1]: Unable to resolve resource with reference 'cfsb1722867963666'
+ERROR: Observation/ABC_example: Observation.derivedFrom[2]: Unable to resolve resource with reference 'cfsb1722869550199'
+WARNING: Observation/ABC_example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ABC_example: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Observation.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve
+ERROR: Observation.text.div: Hyperlink 'cfsb1722869801967' at 'div/ul/li/a' for 'cfsb1722869801967' does not resolve
+ERROR: Observation.text.div: Hyperlink 'cfsb1722867963666' at 'div/ul/li/a' for 'cfsb1722867963666' does not resolve
+ERROR: Observation.text.div: Hyperlink 'cfsb1722869550199' at 'div/ul/li/a' for 'cfsb1722869550199' does not resolve
+== input/examples/PRreferral-CAT-example.json ==
+ERROR: Observation/CAT_score_example: Observation.id: Invalid Resource id: Invalid Characters ('CAT_score_example')
+ERROR: Observation/CAT_score_example: Observation.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+WARNING: Observation/CAT_score_example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/CAT_score_example: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Observation.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve
+== input/examples/PRreferral-FEV1-example.json ==
+ERROR: Observation/FEV1_example: Observation.id: Invalid Resource id: Invalid Characters ('FEV1_example')
+ERROR: Observation/FEV1_example: Observation.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+WARNING: Observation/FEV1_example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+ERROR: Observation.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve
+== input/examples/PRreferral-SpO2-example.json ==
+ERROR: Observation/SpO2_example: Observation.id: Invalid Resource id: Invalid Characters ('SpO2_example')
+ERROR: Observation/SpO2_example: Observation.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+ERROR: Observation/SpO2_example: Observation: Observation.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1)
+ERROR: Observation/SpO2_example: Observation: Slice 'Observation.category:VSCat': a matching slice is required, but not found (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1). Note that other slices are allowed in addition to this required slice
+ERROR: Observation/SpO2_example: Observation: Observation.effective[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1)
+ERROR: Observation/SpO2_example: Observation.code: OxygenSatCode: magic LOINC code 2708-6 required, but not found (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1). Note that other Observation codes are allowed in addition to this required magic code
+ERROR: Observation/SpO2_example: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1)
+ERROR: Observation/SpO2_example: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1)
+WARNING: Observation/SpO2_example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/SpO2_example: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Observation.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve
+== input/examples/PRreferral-comorbidities.json ==
+ERROR: Condition/comorbidities_example: Condition.id: Invalid Resource id: Invalid Characters ('comorbidities_example')
+ERROR: Condition/comorbidities_example: Condition.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+ERROR: Condition.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve
+== input/examples/PRreferral-exacerbation-example.json ==
+ERROR: Observation/exacerbation_history_example: Observation.id: Invalid Resource id: Invalid Characters ('exacerbation_history_example')
+ERROR: Observation/exacerbation_history_example: Observation.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+WARNING: Observation/exacerbation_history_example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/exacerbation_history_example: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Observation.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve
+== input/examples/PRreferral-mMRC-example.json ==
+ERROR: Observation/mMRC_score_example: Observation.id: Invalid Resource id: Invalid Characters ('mMRC_score_example')
+ERROR: Observation/mMRC_score_example: Observation.subject: Unable to resolve resource with reference 'cfsb1724237080279'
+WARNING: Observation/mMRC_score_example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/mMRC_score_example: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Observation.text.div: Hyperlink 'cfsb1724237080279' at 'div/p/a' for 'cfsb1724237080279' does not resolve

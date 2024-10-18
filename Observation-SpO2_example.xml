@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="SpO2_example"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation SpO2_example</b></p><a name="SpO2_example"> </a><a name="hcSpO2_example"> </a><a name="SpO2_example-en-US"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 59408-5}">Oxygen saturation in Arterial blood by Pulse oximetry</span></p><p><b>subject</b>: <a href="cfsb1724237080279">cfsb1724237080279</a></p><p><b>value</b>: 91 %</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="59408-5"/>
+    </coding>
+    <text value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
+  </code>
+  <subject>
+    <reference value="cfsb1724237080279"/>
+  </subject>
+  <valueQuantity>
+    <value value="91"/>
+    <unit value="%"/>
+  </valueQuantity>
+</Observation>

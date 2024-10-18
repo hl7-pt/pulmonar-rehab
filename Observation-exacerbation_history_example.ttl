@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Observation/exacerbation_history_example> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "exacerbation_history_example"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation exacerbation_history_example</b></p><a name=\"exacerbation_history_example\"> </a><a name=\"hcexacerbation_history_example\"> </a><a name=\"exacerbation_history_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 723245007}\">Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: 0</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:723245007 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "723245007" ]
+     ] ) ;
+     fhir:text [ fhir:v "Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)" ]
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "cfsb1724237080279" ]
+  ] ; # 
+  fhir:value [ fhir:v "0"^^xsd:integer] . # 
+
+# -------------------------------------------------------------------------------------
+

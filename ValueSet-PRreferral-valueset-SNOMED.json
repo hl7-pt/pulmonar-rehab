@@ -1,0 +1,76 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PRreferral-valueset-SNOMED",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet PRreferral-valueset-SNOMED</b></p><a name=\"PRreferral-valueset-SNOMED\"> </a><a name=\"hcPRreferral-valueset-SNOMED\"> </a><a name=\"PRreferral-valueset-SNOMED-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 870179002 (modified Medical Research Council Dyspnea Scale (assessment scale))</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 723245007 (Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity))</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 313223002 (Percent predicted FEV1)</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 398192003 (Co-morbid conditions (finding))</li></ul></div>"
+  },
+  "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-SNOMED",
+  "version" : "1.0.0",
+  "name" : "PRreferralValueSetSNOMED",
+  "title" : "Pulmonary Rehabilitation referral SNOMED CT Subset",
+  "status" : "active",
+  "date" : "2024-10-18T08:16:44+00:00",
+  "publisher" : "HL7 Portugal",
+  "contact" : [{
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.pt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@hl7.pt"
+    }]
+  },
+  {
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "geral@hl7.pt",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A subset of SNOMED CT codes for specific use cases in the Pulmonary Rehabilitation referral profile.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "870179002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "723245007"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "313223002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "398192003"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Observation/mMRC_score_example> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mMRC_score_example"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation mMRC_score_example</b></p><a name=\"mMRC_score_example\"> </a><a name=\"hcmMRC_score_example\"> </a><a name=\"mMRC_score_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 870179002}\">modified Medical Research Council Dyspnea Scale (assessment scale)</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: 2</p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>0</td><td>4</td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:870179002 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "870179002" ]
+     ] ) ;
+     fhir:text [ fhir:v "modified Medical Research Council Dyspnea Scale (assessment scale)" ]
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "cfsb1724237080279" ]
+  ] ; # 
+  fhir:value [ fhir:v "2"^^xsd:integer] ; # 
+  fhir:referenceRange ( [
+     fhir:low [
+       fhir:value [ fhir:v "0"^^xsd:decimal ]
+     ] ;
+     fhir:high [
+       fhir:value [ fhir:v "4"^^xsd:decimal ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

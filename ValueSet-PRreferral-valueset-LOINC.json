@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PRreferral-valueset-LOINC",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet PRreferral-valueset-LOINC</b></p><a name=\"PRreferral-valueset-LOINC\"> </a><a name=\"hcPRreferral-valueset-LOINC\"> </a><a name=\"PRreferral-valueset-LOINC-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a> where concept  is-a 20152-5 (FEV1 measured/predicted)</li><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a> where concept  is-a 59408-5 (Oxygen saturation in Arterial blood by Pulse oximetry)</li></ul></div>"
+  },
+  "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-LOINC",
+  "version" : "1.0.0",
+  "name" : "PRreferralValueSetLOINC",
+  "title" : "Pulmonary Rehabilitation referral LOINC Subset",
+  "status" : "active",
+  "date" : "2024-10-18T08:16:44+00:00",
+  "publisher" : "HL7 Portugal",
+  "contact" : [{
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.pt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@hl7.pt"
+    }]
+  },
+  {
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "geral@hl7.pt",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A subset of LOINC codes for specific use cases in the Pulmonary Rehabilitation referral profile.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "20152-5"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "59408-5"
+      }]
+    }]
+  }
+}

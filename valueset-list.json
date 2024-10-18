@@ -1,0 +1,31 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-ICD10",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PRreferralValueSetICD10",
+      "title" : "Pulmonary Rehabilitation referral ICD-10 Subset",
+      "description" : "A subset of ICD-10 codes for specific use cases in the Pulmonary Rehabilitation referral profile.",
+      "systems" : ["http://hl7.org/fhir/sid/icd-10"]
+    },
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-LOINC",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PRreferralValueSetLOINC",
+      "title" : "Pulmonary Rehabilitation referral LOINC Subset",
+      "description" : "A subset of LOINC codes for specific use cases in the Pulmonary Rehabilitation referral profile.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-SNOMED",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PRreferralValueSetSNOMED",
+      "title" : "Pulmonary Rehabilitation referral SNOMED CT Subset",
+      "description" : "A subset of SNOMED CT codes for specific use cases in the Pulmonary Rehabilitation referral profile.",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}

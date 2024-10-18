@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="comorbidities_example"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition comorbidities_example</b></p><a name="comorbidities_example"> </a><a name="hccomorbidities_example"> </a><a name="comorbidities_example-en-US"> </a><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>severity</b>: <span title="Codes:{http://snomed.info/sct 255604002}">Mild</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 398192003}">Co-morbid conditions (finding)</span></p><p><b>subject</b>: <a href="cfsb1724237080279">cfsb1724237080279</a></p><p><b>recordedDate</b>: 2015-02-07 13:28:17+0000</p><h3>Stages</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Summary</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://snomed.info/sct 13104003}">Clinical stage I</span></td></tr></table></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <severity>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="255604002"/>
+      <display value="Mild"/>
+    </coding>
+  </severity>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="398192003"/>
+    </coding>
+    <text value="Co-morbid conditions (finding)"/>
+  </code>
+  <subject>
+    <reference value="cfsb1724237080279"/>
+  </subject>
+  <recordedDate value="2015-02-07T13:28:17Z"/>
+  <stage>
+    <summary>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="13104003"/>
+        <display value="Clinical stage I"/>
+      </coding>
+    </summary>
+  </stage>
+</Condition>

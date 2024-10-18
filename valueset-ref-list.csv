@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.com/fhir/example/ValueSet/PRreferral-valueset-ICD10,1.0.0,active,,PRreferralValueSetICD10,Pulmonary Rehabilitation referral ICD-10 Subset,"A subset of ICD-10 codes for specific use cases in the Pulmonary Rehabilitation referral profile.",,"hl7.terminology.r4"
+http://example.com/fhir/example/ValueSet/PRreferral-valueset-LOINC,1.0.0,active,,PRreferralValueSetLOINC,Pulmonary Rehabilitation referral LOINC Subset,"A subset of LOINC codes for specific use cases in the Pulmonary Rehabilitation referral profile.",,"LOINC"
+http://example.com/fhir/example/ValueSet/PRreferral-valueset-SNOMED,1.0.0,active,,PRreferralValueSetSNOMED,Pulmonary Rehabilitation referral SNOMED CT Subset,"A subset of SNOMED CT codes for specific use cases in the Pulmonary Rehabilitation referral profile.",,"SCT"

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "Observation",
+  "id" : "ABC_example",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ABC_example</b></p><a name=\"ABC_example\"> </a><a name=\"hcABC_example\"> </a><a name=\"ABC_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">GOLD ABE</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: B</p><p><b>derivedFrom</b>: </p><ul><li><a href=\"cfsb1722869801967\">cfsb1722869801967</a></li><li><a href=\"cfsb1722867963666\">cfsb1722867963666</a></li><li><a href=\"cfsb1722869550199\">cfsb1722869550199</a></li></ul></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "text" : "GOLD ABE"
+  },
+  "subject" : {
+    "reference" : "cfsb1724237080279"
+  },
+  "valueString" : "B",
+  "derivedFrom" : [{
+    "reference" : "cfsb1722869801967"
+  },
+  {
+    "reference" : "cfsb1722867963666"
+  },
+  {
+    "reference" : "cfsb1722869550199"
+  }]
+}

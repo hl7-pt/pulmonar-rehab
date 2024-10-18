@@ -1,0 +1,20 @@
+{
+  "resourceType" : "Observation",
+  "id" : "exacerbation_history_example",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation exacerbation_history_example</b></p><a name=\"exacerbation_history_example\"> </a><a name=\"hcexacerbation_history_example\"> </a><a name=\"exacerbation_history_example-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 723245007}\">Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)</span></p><p><b>subject</b>: <a href=\"cfsb1724237080279\">cfsb1724237080279</a></p><p><b>value</b>: 0</p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "723245007"
+    }],
+    "text" : "Number of chronic obstructive pulmonary disease exacerbations in past year (observable entity)"
+  },
+  "subject" : {
+    "reference" : "cfsb1724237080279"
+  },
+  "valueInteger" : 0
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mMRC_score_example"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation mMRC_score_example</b></p><a name="mMRC_score_example"> </a><a name="hcmMRC_score_example"> </a><a name="mMRC_score_example-en-US"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 870179002}">modified Medical Research Council Dyspnea Scale (assessment scale)</span></p><p><b>subject</b>: <a href="cfsb1724237080279">cfsb1724237080279</a></p><p><b>value</b>: 2</p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>0</td><td>4</td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="870179002"/>
+    </coding>
+    <text value="modified Medical Research Council Dyspnea Scale (assessment scale)"/>
+  </code>
+  <subject>
+    <reference value="cfsb1724237080279"/>
+  </subject>
+  <valueInteger value="2"/>
+  <referenceRange>
+    <low>
+      <value value="0"/>
+    </low>
+    <high>
+      <value value="4"/>
+    </high>
+  </referenceRange>
+</Observation>

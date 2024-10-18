@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PRreferral-valueset-ICD10",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet PRreferral-valueset-ICD10</b></p><a name=\"PRreferral-valueset-ICD10\"> </a><a name=\"hcPRreferral-valueset-ICD10\"> </a><a name=\"PRreferral-valueset-ICD10-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://terminology.hl7.org/6.0.2/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a> where concept  is-a 4A09XLZ</li><li>Include codes from<a href=\"http://terminology.hl7.org/6.0.2/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a> where concept  is-a 4A03XR1</li></ul></div>"
+  },
+  "url" : "http://example.com/fhir/example/ValueSet/PRreferral-valueset-ICD10",
+  "version" : "1.0.0",
+  "name" : "PRreferralValueSetICD10",
+  "title" : "Pulmonary Rehabilitation referral ICD-10 Subset",
+  "status" : "active",
+  "date" : "2024-10-18T08:16:44+00:00",
+  "publisher" : "HL7 Portugal",
+  "contact" : [{
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.pt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@hl7.pt"
+    }]
+  },
+  {
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "geral@hl7.pt",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A subset of ICD-10 codes for specific use cases in the Pulmonary Rehabilitation referral profile.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "4A09XLZ"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "4A03XR1"
+      }]
+    }]
+  }
+}
