@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "FEV1_example",
+  "valueQuantity": {
+    "value": 47,
+    "unit": "%"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "313223002",
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "text": "Percent predicted forced expired volume in one second (observable entity)"
+  },
+  "status": "final",
+  "effectiveDateTime": "2015-02-07T13:28:17Z",
+  "subject": {
+    "reference": "cfsb1724237080279"
+  }
+}
